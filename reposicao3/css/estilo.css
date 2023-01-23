@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    background-image: url(3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+  
+}
+
+#total{
+    width: 980px;
+    height: auto;
+    margin: auto;
+}
+#topo{
+    width: 980px;
+    height: 37px;
+    float: left;
+    background-image:url(../img/topo.png);
+    border-bottom: 3px solid #BBA6E7;
+    position: absolute;
+}
+#logo{
+    width: 144px;
+    height: 182px;
+    float: left;
+}
+#menu{
+    width: auto;
+    height: auto;
+    float: right;
+
+}
+#menu a{
+    color: azure;
+    text-decoration: none;
+    display: inline-block;
+    height: 27px;
+    padding: 10px 20px 0 20px;
+}
+#menu a:hover{
+    background-color: rgb(201, 174, 228);
+}
+#menu a:active{
+    background-color: rgb(24, 76, 47);
+}
+#destaque{
+    width: 980px;
+    min-height: 100px;
+    float: left;
+    background-color: #412870;
+}
+#destaque h1{
+    color:#FFF;
+   font-size: 30px;
+   font-style: italic;
+   margin-top: 35px;
+   margin-left: 35px;
+   margin-right: 35px;
+   text-align: center;
+}
+#destaque h4{
+    color:#FFF;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+
+    
+ }
